@@ -1,0 +1,7 @@
+name: Crystal
+main: By.Joako.Crystal.Crystal
+version: 1.0
+author: ByJoako
+description: Economy plugin
+commands:
+  crystal:

@@ -1,0 +1,39 @@
+sql:
+  # YML and MySQL are supported database drivers.
+  driver: MySQL
+
+  # MySQL settings #
+
+  # Database server address.
+  address: localhost
+  port: 3306
+
+  # Database name, username and password.
+  database: 'crystal'
+  username: 'root'
+  password: ''
+
+cristal:
+  your: "&eYou have &b%crystal% crystal"
+  other: "&6&l%player% &ehas %b%crystal% crystal"
+
+menu:
+  title: "&bCrystal Shop"
+  rows: 3
+  buy: "&aYou have bought %item% &7x%amount%"
+  enough_money: "&cYou do not have enough money to buy this item"
+  items:
+    stone:
+      displayname: "&7Stone"
+      material: STONE
+      amount: 16
+      price: 5
+      slot: 14
+      command: "give %player% STONE 16"
+      lore:
+        - "&7&m------------------------------"
+        - "&fPrice: &2$5"
+        - "&7&m------------------------------"
+
+
+data: {}
